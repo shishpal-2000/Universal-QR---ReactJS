@@ -58,6 +58,6 @@
 - [ ] The Card Design breaks for long words like "Hardgoods_Display" -- 2
 - [ ] edit/ api responed with - 413 Content Too Large -- 1
 - [ ] There is no button to go to scan qr page from the desktop mode -- 2
-- [ ] Username should be checked in lowercase for login -- 1
-- [ ] The Add Product button should be hidden when user is not logged in -- 1
-- [ ] What is the purpose of Cancel button when there are "Delete" and "Save" buttons to finalize the voice reviews -- 1 - remove the delete button.
+- [X] Username should be checked in lowercase for login -- 1  
+- [X] The Add Product button should be hidden when user is not logged in -- 1
+- [ ] What is the purpose of Cancel button when there are "Delete" and "Save" buttons to finalize the voice reviews -- 1 - remove the delete button. 
