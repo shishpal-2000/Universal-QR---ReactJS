@@ -18,25 +18,27 @@ const SearchFilter = ({ onAddProduct, activeTab, setActiveTab }) => {
           <div className="flex items-center gap-1">
             <button
               onClick={() => {
-                setActiveTab("mine") ; 
-                toast.info("Showing your products only.", {autoClose: 3000})
+                setActiveTab("mine");
+                toast.info("Showing your products only.", { autoClose: 3000 });
               }}
-              className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${activeTab === "mine"
+              className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                activeTab === "mine"
                   ? "bg-blue-500 text-white"
                   : "bg-gray-100 text-gray-700 hover:bg-gray-200 cursor-pointer"
-                }`}
+              }`}
             >
               Mine
             </button>
             <button
               onClick={() => {
-                setActiveTab("all") ; 
-                toast.info("Showing all products", {autoClose: 3000})
+                setActiveTab("all");
+                toast.info("Showing all products", { autoClose: 3000 });
               }}
-              className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${activeTab === "all"
+              className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                activeTab === "all"
                   ? "bg-blue-500 text-white"
                   : "bg-gray-100 text-gray-700 hover:bg-gray-200 cursor-pointer"
-                }`}
+              }`}
             >
               All
             </button>
